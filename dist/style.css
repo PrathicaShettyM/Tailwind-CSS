@@ -538,12 +538,32 @@ video {
   position: fixed;
 }
 
+.absolute {
+  position: absolute;
+}
+
 .relative {
   position: relative;
 }
 
 .top-0 {
   top: 0px;
+}
+
+.bottom-32 {
+  bottom: 8rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.bottom-4 {
+  bottom: 1rem;
+}
+
+.left-12 {
+  left: 3rem;
 }
 
 .z-20 {
@@ -660,6 +680,14 @@ video {
   height: 100%;
 }
 
+.h-5 {
+  height: 1.25rem;
+}
+
+.h-28 {
+  height: 7rem;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -711,6 +739,14 @@ video {
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .max-w-md {
@@ -966,6 +1002,37 @@ video {
 .bg-\[\#042E41\] {
   --tw-bg-opacity: 1;
   background-color: rgb(4 46 65 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
+}
+
+.bg-\[\#043\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 68 51 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#043a\] {
+  background-color: #043a;
+}
+
+.bg-\[\#043a53\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 58 83 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#F2F5\] {
+  background-color: #F2F5;
+}
+
+.bg-\[\#F2F5F6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 245 246 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-10 {
+  --tw-bg-opacity: 0.1;
 }
 
 .bg-\[url\(\'\/assets\/BG\.png\'\)\] {
@@ -1263,6 +1330,14 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:bottom-48 {
+    bottom: 12rem;
+  }
+
+  .md\:right-16 {
+    right: 4rem;
+  }
+
   .md\:m-0 {
     margin: 0px;
   }
@@ -1274,6 +1349,10 @@ video {
 
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:inline-block {
+    display: inline-block;
   }
 
   .md\:flex {
@@ -1288,12 +1367,40 @@ video {
     height: 100%;
   }
 
+  .md\:h-32 {
+    height: 8rem;
+  }
+
+  .md\:h-36 {
+    height: 9rem;
+  }
+
+  .md\:h-8 {
+    height: 2rem;
+  }
+
   .md\:w-48 {
     width: 12rem;
   }
 
   .md\:w-6\/12 {
     width: 50%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-32 {
+    width: 8rem;
+  }
+
+  .md\:w-36 {
+    width: 9rem;
+  }
+
+  .md\:w-8 {
+    width: 2rem;
   }
 
   .md\:max-w-2xl {
@@ -1316,6 +1423,11 @@ video {
     background-color: transparent;
   }
 
+  .md\:object-contain {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+
   .md\:px-2 {
     padding-left: 0.5rem;
     padding-right: 0.5rem;
@@ -1328,6 +1440,18 @@ video {
 }
 
 @media (min-width: 1024px) {
+  .lg\:bottom-64 {
+    bottom: 16rem;
+  }
+
+  .lg\:right-24 {
+    right: 6rem;
+  }
+
+  .lg\:left-20 {
+    left: 5rem;
+  }
+
   .lg\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
