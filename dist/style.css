@@ -578,6 +578,10 @@ video {
   z-index: 20;
 }
 
+.order-2 {
+  order: 2;
+}
+
 .m-2 {
   margin: 0.5rem;
 }
@@ -1511,6 +1515,10 @@ video {
     right: 6rem;
   }
 
+  .lg\:order-none {
+    order: 0;
+  }
+
   .lg\:mx-2 {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
@@ -1546,6 +1554,11 @@ video {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-fit {
+    width: -moz-fit-content;
+    width: fit-content;
   }
 
   .lg\:px-12 {
