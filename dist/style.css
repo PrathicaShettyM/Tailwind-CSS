@@ -578,6 +578,10 @@ video {
   z-index: 20;
 }
 
+.z-10 {
+  z-index: 10;
+}
+
 .order-2 {
   order: 2;
 }
@@ -648,6 +652,22 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mt-16 {
+  margin-top: 4rem;
 }
 
 .block {
@@ -793,6 +813,10 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-4\/12 {
+  width: 33.333333%;
 }
 
 .max-w-md {
@@ -1070,6 +1094,43 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#f2f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 34 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f2f5f6\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 245 246 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f0b\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 0 187 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#f0b7\] {
+  background-color: #f0b7;
+}
+
+.bg-\[\#f0b73f\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 183 63 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#12141d\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 20 29 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
@@ -1318,6 +1379,11 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
@@ -1372,12 +1438,20 @@ video {
 }
 
 @media (min-width: 768px) {
+  .md\:absolute {
+    position: absolute;
+  }
+
   .md\:bottom-48 {
     bottom: 12rem;
   }
 
   .md\:right-16 {
     right: 4rem;
+  }
+
+  .md\:left-12 {
+    left: 3rem;
   }
 
   .md\:m-0 {
@@ -1389,8 +1463,21 @@ video {
     margin-right: 0.5rem;
   }
 
+  .md\:mx-0 {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
+  }
+
+  .md\:mb-0 {
+    margin-bottom: 0px;
+  }
+
+  .md\:block {
+    display: block;
   }
 
   .md\:inline-block {
@@ -1419,6 +1506,10 @@ video {
 
   .md\:h-full {
     height: 100%;
+  }
+
+  .md\:h-4 {
+    height: 1rem;
   }
 
   .md\:w-32 {
@@ -1488,6 +1579,11 @@ video {
     font-size: 2.25rem;
     line-height: 2.5rem;
   }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -1501,6 +1597,10 @@ video {
 
   .lg\:right-24 {
     right: 6rem;
+  }
+
+  .lg\:left-28 {
+    left: 7rem;
   }
 
   .lg\:order-none {
@@ -1576,5 +1676,10 @@ video {
   .lg\:text-4xl {
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
